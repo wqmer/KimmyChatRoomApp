@@ -1,3 +1,16 @@
 var string = 'this is a string';
 
-console.log(`Insert a string here: ${string}`); //ECMAScript 6 feature using ``
+//console.log(new Date().getTime()); //ECMAScript 6 feature using ``
+
+
+
+var generateLocationMessage = (from ,latitude ,longitude ) => {
+ return{
+    from,
+    latitude,
+    longitude
+   };
+};
+
+
+console.log(generateLocationMessage('admin', '123' , '456'));
